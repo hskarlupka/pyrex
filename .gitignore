@@ -19,3 +19,9 @@ tests/bug*
 
 # Sphinx documentation build directory
 docs/_build/*
+
+
+# Cython build directory and object files
+build/*
+pyrex/*.so
+pyrex/*.pyd
